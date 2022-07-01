@@ -7,6 +7,7 @@
     --bgMain: #0d0215;
 }
 
+
 body {
     background-color: var(--bgMain);
 }
@@ -19,7 +20,7 @@ h1 {
     margin-top: 3em;
 }
 
-p {
+p, .answerFormat {
     color: var(--text1);
     text-align: center;
     margin: 15px 0;
@@ -33,7 +34,7 @@ p {
     justify-content: center;
 }
 
-.play {
+.btn {
     color: rgb(254, 196, 255); font-size: 26px; 
     line-height: 26px; 
     padding: 14px; 
@@ -44,10 +45,72 @@ p {
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(181, 63, 211); 
     display: inline-block;
 }
-.play:hover {
+
+.btn:hover {
     background: var(--accent2); 
 }
-.play:active {
+
+.btn:active {
     background: var(--accent3); 
 }
-    
+
+.container {
+    display: flex;
+    margin-top: 3em;
+}
+
+progress {
+margin: 0 auto;
+}
+
+#welcome {
+    display: block;
+}
+
+#game {
+    display: none;
+}
+
+#question1 {
+    display: block;
+}
+
+#question2 {
+    display: none;
+}
+
+#question3 {
+    display: none;
+}
+
+#question4 {
+    display: none;
+}
+
+#question5 {
+    display: none;
+}
+
+#question6 {
+    display: none;
+}
+
+#question7 {
+    display: none;
+}
+
+#question8 {
+    display: none;
+}
+
+#question9 {
+    display: none;
+}
+
+#question10 {
+    display: none;
+}
+
+#end {
+    display: none;
+}

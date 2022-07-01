@@ -11,14 +11,133 @@
 
 <body>
 
-    <div class="welcome">
-        <h1>Star Citizen Quiz</h1>
-        <p>Test your knowlege of the Star Citizen Universe in this short quiz! Work through 10 questions and try to set a high score! You have 60 seconds to answer all 10 questions. An incorrect answer will remove time from the clock, so make sure to pick wisely.</p>
-    </div>
-    <div class="play-btn">
-        <button class="play">PLAY!</button>
-    </div>
-   
+    <section id="welcome">
+        <div class="welcome">
+            <h1>Star Citizen Quiz</h1>
+            <p>Test your knowlege of the Star Citizen Universe in this short quiz! Work through 10 questions and try to set a high score! You have 60 seconds to answer all 10 questions. An incorrect answer will remove time from the clock, so make sure to pick wisely.</p>
+        </div>
+        <div class="play-btn">
+            <button id="play" class="btn">PLAY!</button>
+        </div>
+    </section>
+
+    <section id="game">
+
+        <div class="container">
+            <progress value="0" max="90" id="timer"></progress>
+        </div>
+
+        <section id="question1">
+            <h1 id="questionMain">Which of the following is made by the manufacturer Drake Interplanetary?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect1">Sabre</button>
+                <button class="btn" id="correct">Cutlass</button>
+                <button class="btn" id="incorrect2">Blade</button>
+                <button class="btn" id="incorrect3">Scimitar</button>
+            </div>
+        </section>
+    
+        <section id="question2">
+            <h1>Which model of the RSI Constellation was devloped for combat?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="correct2">Andromeda</button>
+                <button class="btn" id="incorrect4">Phoenix</button>
+                <button class="btn" id="incorrect5">Taurus</button>
+                <button class="btn" id="incorrect6">Aquila</button>
+            </div>
+        </section>
+    
+        <section id="question3">
+            <h1>Which of the following is classifed as a medium hauler</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect7">Constellation Taurus</button>
+                <button class="btn" id="incorrect8">Mule</button>
+                <button class="btn" id="incorrect9">C2 StarLifter</button>
+                <button class="btn" id="correct3">Cutlass Black</button>
+            </div>
+        </section>
+    
+        <section id="question4">
+            <h1>Which of the following Origin ships have an Executive edition?</h1>
+            <div class="answerFormat"> 
+                <button class="btn" id="incorrect10">100i</button>
+                <button class="btn" id="incorrect11">300i</button>
+                <button class="btn" id="correct4">600i</button>
+                <button class="btn" id="incorrect12">890j</button>
+            </div>
+        </section>
+    
+        <section id="question5">
+            <h1>What title is given to players who have spent more than $1000 in starcitizen pledge funding</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect13">Executive</button>
+                <button class="btn" id="incorrect14">Prestige</button>
+                <button class="btn" id="incorrect15">VIP</button>
+                <button class="btn" id="correct5">Concierge</button>
+            </div>
+        </section>
+    
+        <section id="question6">
+            <h1>What is the cheapest pledge ship?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="correct6">Aurora</button>
+                <button class="btn" id="incorrect16">100i</button>
+                <button class="btn" id="incorrect17">Mustang</button>
+                <button class="btn" id="incorrect18">nomad</button>
+            </div>
+        </section>
+    
+        <section id="question7">
+            <h1>What planet is Loreville on?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect19">Crusader</button>
+                <button class="btn" id="correct7">Hurston</button>
+                <button class="btn" id="incorrect20">Arc Corp</button>
+                <button class="btn" id="incorrect21">Micro Tech</button>
+            </div>
+        </section>
+    
+        <section id="question8">
+            <h1>What Station is located over Crusader?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect22">Everus Harbor</button>
+                <button class="btn" id="incorrect23">Wild Forest</button>
+                <button class="btn" id="incorrect24">Faithful Dream</button>
+                <button class="btn" id="correct8">Port Olisar</button>
+            </div>
+        </section>
+    
+        <section id="question9">
+            <h1>Which of the following ships does not come equipped with a medical bed?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="incorrect25">Carrack</button>
+                <button class="btn" id="incorrect26">890j</button>
+                <button class="btn" id="correct9">C2 StarLifter</button>
+                <button class="btn" id="incorrect27">Cutlass Red</button>
+            </div>
+        </section>
+    
+        <section id="question10">
+            <h1>Where is Grim Hex located?</h1>
+            <div class="answerFormat">
+                <button class="btn" id="correct10">Yela</button>
+                <button class="btn" id="incorrect28">daymar</button>
+                <button class="btn" id="incorrect29">Aberdeen</button>
+                <button class="btn" id="incorrect30">Calliope</button>
+            </div>
+        </section>
+    </section>
+
+    <section id="end">
+        <div class="end">
+            <h1>Scores</h1>
+            <ol>
+            </ol>
+        </div>
+        <div class="play-btn">
+            <button id="replay" class="btn">PLAY AGAIN!</button>
+        </div>
+    </section>
 
     <script src="./assets/script.js"></script>
 
